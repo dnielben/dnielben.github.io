@@ -1,5 +1,5 @@
 
-header {
+.header {
   text-align: center;
   background: #5f90aa;
   color: white;
@@ -14,3 +14,22 @@ header {
         max-width: 800px;
     }
 }
+
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    h1  {
+        font-size: 1.8em; /* 2.5x default size */
+        }
+
+    h3  {
+        font-size: 1.2em; /* 2.5x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    h1  {
+        font-size: 1.2em; /* 2.5x default size */
+        }
+
+    h3  {
+        font-size: 1em; /* 2.5x default size */
+        }
+    }
