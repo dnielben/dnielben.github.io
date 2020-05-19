@@ -210,8 +210,17 @@
 
 <!-- Registro -->
 <section id="Registro" class="text-center bg-white">
-  <div class="container">
-  <div id="eventbrite-widget-container-105866477484"></div>
+<br/>
+<br/>
+<br/>
+<h1>Regístrate ahora!</h1>
+<p>El evento no tiene ningún costo.</p>
+<br/>
+  <!-- Noscript content for added SEO -->
+  <noscript><a href="https://www.eventbrite.co/e/transformacion-digital-y-arquitectura-empresarial-tickets-105866477484" rel="noopener noreferrer" target="_blank"></noscript>
+  <!-- You can customize this button any way you like -->
+  <button id="eventbrite-widget-modal-trigger-105866477484" type="button">Buy Tickets</button>
+  <noscript></a>Buy Tickets on Eventbrite</noscript>
 
   <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -221,16 +230,18 @@
       };
 
       window.EBWidgets.createWidget({
-          // Required
           widgetType: 'checkout',
           eventId: '105866477484',
-          iframeContainerId: 'eventbrite-widget-container-105866477484',
-
-          // Optional
-          iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-          onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+          modal: true,
+          modalTriggerElementId: 'eventbrite-widget-modal-trigger-105866477484',
+          onOrderComplete: exampleCallback
       });
   </script>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 </div>
 </section>
 
