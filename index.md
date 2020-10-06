@@ -68,7 +68,7 @@ Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
 
 <ul class="list-group list-group-flush">    
   <li class="list-group-item"><a href="./courses/Quantum/quantumc.html" class="btn btn btn-link" data-show-count="false">Quantum Computing 2020-08 (in spanish)</a></li>
-  <li class="list-group-item"><a href="./courses/AREM/arem.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2018-08 (in spanish)</a></li>
+  <li class="list-group-item"><a href="./courses/AREM/arem.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2020-08 (in spanish)</a></li>
   <li class="list-group-item"><a href="./courses/ARSW/arsw.html" class="btn btn-link" data-show-count="false">Arquitectura de software 2020-06 (in spanish)</a></li>
 </ul>
 </div> 
