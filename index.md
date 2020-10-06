@@ -1,40 +1,17 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Daniel Benavides</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Personal CSS -->
-    <link href="css/personalws.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 header">
-                    <img src="images/FotoLuisDanielBenavidesNavarro.jpg" alt="Smiley face" height="200">
-                    <h1>Luis Daniel Benavides Navarro, Ph.D.</h1>
-                    <h3>Programmer, Scientist, Information Systems Architect</h3>
-                    <a href="https://twitter.com/dnielben" class="btn btn-primary" data-show-count="false">Follow @dnielben</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
+---
+title: My page
+layout: default
+---
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 header">
+            <img src="images/FotoLuisDanielBenavidesNavarro.jpg" alt="Smiley face" height="200">
+            <h1>Luis Daniel Benavides Navarro, Ph.D.</h1>
+            <h3>Programmer, Scientist, Information Systems Architect</h3>
+            <a href="https://twitter.com/dnielben" class="btn btn-primary" data-show-count="false">Follow @dnielben</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-
-
+    </div>
+</div>
 <div class="container">
 <br/>
 
@@ -59,14 +36,42 @@ email: luis.benavides@escuelaing.edu.co<br/>
 Tel.: +57 (1) +57(1) 668 3600 ext 262<br/>
 Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
 
+<div id="projects">
     <h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Courses</h3>
-
-<ul class="list-group list-group-flush">
-  <li class="list-group-item"><a href="./courses/Quantum/index.html" class="btn btn btn-link" data-show-count="false">Quantum Computing 2019-1 (in spanish)</a></li>
-  <li class="list-group-item"><a href="./courses/AREM/index.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2018-2 (in spanish)</a></li>
+        <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects</h3>
+    
+  <ul>    
+  <li ><p></p><a href="https://www.cap4city.eu/home/" class="btn btn btn-link" data-show-count="false">Strengthening Governance Capacity for Smart Sustainable Cities
+      (CAP4CITY) </a>. 
+      <br/>Co-funded by the ERASMUS+ Programme of the European Union.<p/>
+</li>
 </ul>
+</div>
 
+<div id="events">
+    <h3>
+        <a class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
+    
+  <ul>  
+    
+  <li ><p></p><a href="/events/q2020/index.html" class="btn btn btn-link" data-show-count="false">First workshop on Quantum Computing. June 2020 (In Spanish).</a>. 
+   <p/></li>
+   
+  <li ><p></p><a href="/events/ArqIS2020/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. May, 2020 (In Spanish).</a>. 
+   <p/></li>
+</ul>
+</div>  
+    
+<div id="courses">   
+    <h3>
+        <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Courses</h3>
+
+<ul class="list-group list-group-flush">    
+  <li class="list-group-item"><a href="./courses/Quantum/quantumc.html" class="btn btn btn-link" data-show-count="false">Quantum Computing 2019-1 (in spanish)</a></li>
+  <li class="list-group-item"><a href="./courses/AREM/arem.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2018-2 (in spanish)</a></li>
+  <li class="list-group-item"><a href="./courses/ARSW/arsw.html" class="btn btn-link" data-show-count="false">Arquitectura de software 2020-i (in spanish)</a></li>
+</ul>
+</div> 
 
 
 <h3>
@@ -369,30 +374,22 @@ Luis&nbsp;Daniel Benavides&nbsp;Navarro, Mario S&uuml;dholt, Wim Vanderperren, B
         </td>
     </tr>
 
-    <tr valign="top">
-        <td align="right" class="bibtexnumber">
-        [<a name="entcc2011">1</a>]
-        </td>
-        <td class="bibtexitem">
-        Luis&nbsp;Daniel Benavides&nbsp;Navarro, Oscar Kiyoshige Garces and
-          Hugo Arboleda.
-         Implementation of causal control operators to detect distributed events. Working paper, 2016.
-        [&nbsp;<a href="workingpapers/Implementation_of_causal_control_operators_to_detect_distributed_events.pdf">Link</a> ]
-        </td>
-    </tr>
-    </table>
-<hr>
+<tr valign="top">
+    <td align="right" class="bibtexnumber">
+    [<a name="entcc2011">1</a>]
+    </td>
+    <td class="bibtexitem">
+    Luis&nbsp;Daniel Benavides&nbsp;Navarro, Oscar Kiyoshige Garces and
+      Hugo Arboleda.
+     Implementation of causal control operators to detect distributed events. Working paper, 2016.
+    [&nbsp;<a href="workingpapers/Implementation_of_causal_control_operators_to_detect_distributed_events.pdf">Link</a> ]
+    </td>
+</tr>
+</table>
 
-      <footer class="site-footer">
 
-        Luis Daniel Benavides Navarro - email: luis.benavides@escuelaing.edu.co<br/>
-Tel.: +57 (1) +57(1) 668 3600 ext 262 - Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia.
-      </footer>
-
-    </section>
-    </section>
-
-</div>
-
-  </body>
-</html>
+<!--
+You can use HTML elements in Markdown, such as the comment element, and they won't
+be affected by a markdown parser. However, if you create an HTML element in your
+markdown file, you cannot use markdown syntax within that element's contents.
+-->
