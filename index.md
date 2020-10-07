@@ -14,8 +14,8 @@ layout: default
         <div class="row justify-content-center">
               <h5>Programmer, Scientist, Information Systems Architect</h5>
         </div>
-        <div class="row">
-                <ul class="nav nav-pills nav-fill">
+        <div class="row justify-content-center">
+                <ul class="nav">
                   <li class="nav-item">
                     <h2>
                         <a href="https://twitter.com/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
