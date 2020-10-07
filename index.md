@@ -6,12 +6,27 @@ layout: default
     <div class="row">
         <div class="col-lg-12 header">
             <img src="images/FotoLuisDanielBenavidesNavarro.jpg" alt="Smiley face" height="200">
-            <h1>Luis Daniel Benavides Navarro, Ph.D.</h1>
-            <h3>Programmer, Scientist, Information Systems Architect</h3>
-            <a href="https://twitter.com/dnielben" class="btn btn-primary" data-show-count="false">Follow @dnielben</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h2>Luis Daniel Benavides Navarro, Ph.D.</h2>
+            <h5>Programmer, Scientist, Information Systems Architect</h5>
+            <br/>
+              <a href="https://twitter.com/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
+                <i class="fab fa-twitter"></i>  
+              </a>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
+              </script>
+              <a href="https://youtube.com/user/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/danielbenavides" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
+                <i class="fab fa-github"></i>
+              </a>
         </div>
     </div>
 </div>
+
 <div class="container">
 <br/>
 
@@ -39,10 +54,10 @@ Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
 <div id="projects">
     <h3>
         <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects</h3>
-    
+
   <ul>    
   <li ><p></p><a href="https://www.cap4city.eu/home/" class="btn btn btn-link" data-show-count="false">Strengthening Governance Capacity for Smart Sustainable Cities
-      (CAP4CITY) </a>. 
+      (CAP4CITY) </a>.
       <br/>Co-funded by the ERASMUS+ Programme of the European Union.<p/>
 </li>
 </ul>
@@ -51,17 +66,17 @@ Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
 <div id="events">
     <h3>
         <a class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
-    
+
   <ul>  
-    
-  <li ><p></p><a href="/events/q2020/index.html" class="btn btn btn-link" data-show-count="false">First workshop on Quantum Computing. June 2020 (In Spanish).</a>. 
+
+  <li ><p></p><a href="/events/q2020/index.html" class="btn btn btn-link" data-show-count="false">First workshop on Quantum Computing. June 2020 (In Spanish).</a>.
    <p/></li>
-   
-  <li ><p></p><a href="/events/ArqIS2020/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. May, 2020 (In Spanish).</a>. 
+
+  <li ><p></p><a href="/events/ArqIS2020/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. May, 2020 (In Spanish).</a>.
    <p/></li>
 </ul>
 </div>  
-    
+
 <div id="courses">   
     <h3>
         <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Courses</h3>
@@ -71,7 +86,7 @@ Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
   <li class="list-group-item"><a href="./courses/AREM/arem.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2020-08 (in spanish)</a></li>
   <li class="list-group-item"><a href="./courses/ARSW/arsw.html" class="btn btn-link" data-show-count="false">Arquitectura de software 2020-06 (in spanish)</a></li>
 </ul>
-</div> 
+</div>
 
 
 <h3>
