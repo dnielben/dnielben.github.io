@@ -2,29 +2,51 @@
 title: My page
 layout: default
 ---
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12 header">
+<div class="container-fluid header">
+    <div class="container justify-content-center">
+        <div class="row justify-content-center">
             <img src="images/FotoLuisDanielBenavidesNavarro.jpg" alt="Smiley face" height="200">
-            <h2>Luis Daniel Benavides Navarro, Ph.D.</h2>
-            <h5>Programmer, Scientist, Information Systems Architect</h5>
             <br/>
-              <a href="https://twitter.com/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
-                <i class="fab fa-twitter"></i>  
-              </a>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
-              </script>
-              <a href="https://youtube.com/user/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
-                <i class="fab fa-youtube"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/danielbenavides" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="https://github.com/dnielben" data-show-count="false" class="btn btn-light" data-toggle="button" aria-pressed="false">
-                <i class="fab fa-github"></i>
-              </a>
         </div>
-    </div>
+        <div class="row justify-content-center">
+              <h2>Luis Daniel Benavides Navarro, Ph.D.</h2>
+        </div>
+        <div class="row justify-content-center">
+              <h5>Programmer, Scientist, Information Systems Architect</h5>
+        </div>
+        <div class="row">
+                <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                    <h2>
+                        <a href="https://twitter.com/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
+                            <i class="fab fa-twitter"> </i>  
+                        </a></h2>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
+                    </script>  
+                  </li>
+                  <li class="nav-item">
+                    <h2>
+                        <a href="https://youtube.com/user/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
+                            <i class="fab fa-youtube"></i>     
+                        </a>
+                    </h2>      
+                  </li>
+                  <li class="nav-item">
+                    <h2>
+                      <a href="https://www.linkedin.com/in/danielbenavides" data-show-count="false" class="nav-link text-light" aria-pressed="false">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                      </h2>
+                  </li>
+                  <li class="nav-item">    
+                    <h2><a href="https://github.com/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
+                    <i class="fab fa-github"></i>
+                    </a>
+                  </h2>    
+                    </li>      
+                </ul>
+        </div>
+</div>
 </div>
 
 <div class="container">
