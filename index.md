@@ -15,36 +15,7 @@ layout: default
               <h5>Programmer, Scientist, Information Systems Architect</h5>
         </div>
         <div class="row justify-content-center">
-                <ul class="nav">
-                  <li class="nav-item">
-                    <h2>
-                        <a href="https://twitter.com/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
-                            <i class="fab fa-twitter"> </i>  
-                        </a></h2>
-                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
-                    </script>  
-                  </li>
-                  <li class="nav-item">
-                    <h2>
-                        <a href="https://youtube.com/user/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
-                            <i class="fab fa-youtube"></i>     
-                        </a>
-                    </h2>      
-                  </li>
-                  <li class="nav-item">
-                    <h2>
-                      <a href="https://www.linkedin.com/in/danielbenavides" data-show-count="false" class="nav-link text-light" aria-pressed="false">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                      </h2>
-                  </li>
-                  <li class="nav-item">    
-                    <h2><a href="https://github.com/dnielben" data-show-count="false" class="nav-link text-light" aria-pressed="false">
-                    <i class="fab fa-github"></i>
-                    </a>
-                  </h2>    
-                    </li>      
-                </ul>
+            <h3 class="white-link-text-on-box">{% include navigation/socialmedianav.html %}</h3>    
         </div>
 </div>
 </div>
@@ -53,25 +24,9 @@ layout: default
 <br/>
 
 
-<h3>
-<a id="Bio" class="anchor" href="#bio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bio.</h3>
+{% include maincontent/bio.html %}
 
-<p>
-Daniel holds a PhD in computer science from the University of Nantes (France), a Master in computer science from the Vrije Universiteit Brussels (Belgium), a Specialization degree in software construction from the University of Los Andes (Colombia) and an Electrical Engineering degree (Colombia) from the University of Los Andes.
-</p>
-<p>
-He currently serves as an associate professor at the Colombian School of Engineering Julio Garavito. His areas of interest include Enterprise Architecture, Software Engineering, Distributed Computing and Programming Languages and Models for the development of distributed, complex and concurrent applications.
-</p>
-<p>
-He has multiple international publications in computer science and a professional career of more than 10 years. He has worked as engineer at multinational companies (Codensa, Citigroup), as a researcher at European laboratories (eg, INRIA), participated in joint research projects with European companies (Siemens, Germany), and served as lecturer at Los Andes University and ICESI University.
-</p>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact information</h3>
-
-email: luis.benavides@escuelaing.edu.co<br/>
-Tel.: +57 (1) +57(1) 668 3600 ext 262<br/>
-Address: AK.45 No.205-59 (Autopista Norte), Bogotá - Colombia. <br/>
+{% include maincontent/contactinfo.html %}
 
 <div id="projects">
     <h3>
