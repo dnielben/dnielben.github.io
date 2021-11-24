@@ -34,7 +34,7 @@ layout: default
 
   <ul>    
   <li ><p></p><a href="https://www.cap4city.eu/home/" class="btn btn btn-link" data-show-count="false">Strengthening Governance Capacity for Smart Sustainable Cities
-      (CAP4CITY) </a>.
+      (CAP4CITY).</a>
       <br/>Co-funded by the ERASMUS+ Programme of the European Union.<p/>
 </li>
 </ul>
@@ -46,13 +46,16 @@ layout: default
 
   <ul>  
 
-  <li ><p></p><a href="/events/cloudnative2021/index.html" class="btn btn btn-link" data-show-count="false">Cloud Native Architectures 2021. May 2021 (In Spanish).</a>.
+  <li ><p></p><a href="/events/ArqIS2021/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. Dec. 10 2021 (In Spanish).</a>
+   <p/></li>	  
+
+  <li ><p></p><a href="/events/cloudnative2021/index.html" class="btn btn btn-link" data-show-count="false">Cloud Native Architectures 2021. May 2021 (In Spanish).</a>
    <p/></li>
 
-  <li ><p></p><a href="/events/q2020/index.html" class="btn btn btn-link" data-show-count="false">First workshop on Quantum Computing. June 2020 (In Spanish).</a>.
+  <li ><p></p><a href="/events/q2020/index.html" class="btn btn btn-link" data-show-count="false">First workshop on Quantum Computing. June 2020 (In Spanish).</a>
    <p/></li>
 
-  <li ><p></p><a href="/events/ArqIS2020/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. May, 2020 (In Spanish).</a>.
+  <li ><p></p><a href="/events/ArqIS2020/index.html" class="btn btn btn-link" data-show-count="false">Digital Transformation and Enterprise Architecture. May, 2020 (In Spanish).</a>
    <p/></li>
 </ul>
 </div>  
