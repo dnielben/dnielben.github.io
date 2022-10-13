@@ -68,6 +68,7 @@ layout: default
   <li class="list-group-item"><a href="./courses/Quantum/quantumc.html" class="btn btn btn-link" data-show-count="false">Quantum Computing 2020-08 (in spanish)</a></li>
   <li class="list-group-item"><a href="./courses/AREM/arem.html" class="btn btn-link" data-show-count="false">Enterprise Architecture 2020-08 (in spanish)</a></li>
   <li class="list-group-item"><a href="./courses/ARSW/arsw.html" class="btn btn-link" data-show-count="false">Arquitectura de software 2020-06 (in spanish)</a></li>
+  <li class="list-group-item"><a href="/ipp5/public_html/index.html" class="btn btn-link" data-show-count="false">Introdución a la programación, la animación y el Machine Learning con JS (in spanish)</a></li>
 </ul>
 </div>
 
